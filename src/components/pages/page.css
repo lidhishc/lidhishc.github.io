@@ -1,0 +1,308 @@
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  background-color: black;
+  scroll-behavior: initial;
+}
+.header {
+  z-index: 11;
+  opacity: 0.9;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 3rem;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(27, 26, 26));
+  width: 100vw;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("../../public/bac.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.about {
+  width: 100vw;
+  min-height: 104vh;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(27, 26, 26));
+}
+
+.headerItem {
+  display: flex;
+  color: white;
+  flex: 0.4;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.item {
+  cursor: pointer;
+  transition: 200ms;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.menuItems {
+  color: white;
+  cursor: pointer;
+  transition: 200ms;
+  text-decoration: none;
+  outline: none;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  align-items: center;
+  padding-right: 3rem;
+  background-color: black;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.menuitem {
+  cursor: pointer;
+  transition: 200ms;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.menuitem:hover {
+  color: orange;
+  transform: scale(1.2);
+}
+
+.item:hover {
+  color: orange;
+  transform: scale(1.2);
+}
+
+.name_field {
+  letter-spacing: 2px;
+  margin: 0;
+  padding-top: 15rem;
+  padding-left: 10%;
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.designation {
+  font-size: 2rem;
+  padding-left: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.about_top {
+  padding-top: 4rem;
+  color: white;
+  height: 100vh;
+}
+
+.whoami {
+  padding-left: 2rem;
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.components__ {
+  padding: 0rem;
+}
+.description {
+  height: 100px;
+}
+.description_items {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.4rem;
+  align-items: center;
+}
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+
+  align-items: center;
+  margin: 0.2rem;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(56, 54, 54));
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgb(245, 140, 3);
+  transition: 0.2s;
+  height: 3rem;
+  width: 10rem;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(247, 247, 247, 0.2);
+}
+
+/* Add some padding inside the card container */
+.cv_down {
+  text-decoration: none;
+  outline: none;
+  float: left;
+  margin-bottom: 0;
+  cursor: pointer;
+  padding-top: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 99px;
+  width: 8rem;
+  height: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(rgb(240, 147, 71), rgb(250, 115, 4));
+}
+
+.level {
+  color: orange;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .mediaMobile {
+    display: none;
+  }
+
+  .image {
+    display: none;
+  }
+  .item {
+    display: none;
+  }
+
+  .headerMenu {
+    margin-right: 1rem;
+  }
+
+  .headerItem {
+    display: flex;
+    color: white;
+    flex: 0;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 0rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .desc {
+    float: right;
+  }
+  .image {
+    float: left;
+  }
+  .headerMenu {
+    display: none;
+  }
+  .menuItems {
+    display: none;
+  }
+}
+.separtor {
+  margin-top: 0;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.imageClass {
+  margin-left: 2rem;
+  float: "left";
+  margin-bottom: 2rem;
+}
+.image {
+  width: "3rem";
+  height: "3rem";
+  border-radius: 7px;
+}
+.desciption_image {
+  display: flex;
+}
+
+.works {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  min-height: 100vh;
+  min-width: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(27, 26, 26));
+}
+
+.workItem {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  align-items: center;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(56, 54, 54));
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgb(245, 140, 3);
+  transition: 0.2s;
+  height: 16rem;
+  width: 10rem;
+}
+.workItem:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(247, 247, 247, 0.2);
+}
+.workHeading {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  color: white;
+  padding-left: 2rem;
+  font-size: 3rem;
+}
+
+.worksItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workheading {
+  margin-top: ".7rem";
+  color: white;
+}
+
+@font-face {
+  font-family: head;
+  src: url("../../fonst/fonts/RaviPrakash-Regular.ttf");
+}
