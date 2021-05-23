@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lidhishc.github.io/static/css/main.cd849d4c.chunk.css",
+    "main.js": "/lidhishc.github.io/static/js/main.abb6ed10.chunk.js",
+    "main.js.map": "/lidhishc.github.io/static/js/main.abb6ed10.chunk.js.map",
+    "runtime-main.js": "/lidhishc.github.io/static/js/runtime-main.6dca8dee.js",
+    "runtime-main.js.map": "/lidhishc.github.io/static/js/runtime-main.6dca8dee.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/lidhishc.github.io/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.a5c5a7da.chunk.js": "/lidhishc.github.io/static/js/2.a5c5a7da.chunk.js",
+    "static/js/2.a5c5a7da.chunk.js.map": "/lidhishc.github.io/static/js/2.a5c5a7da.chunk.js.map",
+    "index.html": "/lidhishc.github.io/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/lidhishc.github.io/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.cd849d4c.chunk.css.map": "/lidhishc.github.io/static/css/main.cd849d4c.chunk.css.map",
+    "static/js/2.a5c5a7da.chunk.js.LICENSE.txt": "/lidhishc.github.io/static/js/2.a5c5a7da.chunk.js.LICENSE.txt",
+    "static/media/page.css": "/lidhishc.github.io/static/media/bac.5152b8e2.jpeg",
+    "static/media/netflix.121b8015.png": "/lidhishc.github.io/static/media/netflix.121b8015.png",
+    "static/media/uniqin.a8bcb322.png": "/lidhishc.github.io/static/media/uniqin.a8bcb322.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6dca8dee.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.a5c5a7da.chunk.js",
+    "static/css/main.cd849d4c.chunk.css",
+    "static/js/main.abb6ed10.chunk.js"
+  ]
+}
